@@ -58,7 +58,7 @@ Increase manpower or improve packing efficiency
 [https://colab.research.google.com/drive/1_mfVXUY5344DCEw6_FizPmGFud-59b3_?usp=sharing]
 
 * Live Web App (Streamlit):
-[PASTE_YOUR_STREAMLIT_LINK_HERE]
+[https://prototypetimelead-2nzwtuxdmwcodmmwncmpq5.streamlit.app/]
 
 ---
 
