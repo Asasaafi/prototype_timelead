@@ -70,6 +70,12 @@ Increase manpower or improve packing efficiency
 pip install -r requirements.txt
 ```
 
+### 2. Terminal Local
+
+```
+python -m streamlit run app.py
+```
+
 ### 3. Run Streamlit App
 
 ```
