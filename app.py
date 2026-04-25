@@ -4,18 +4,16 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_absolute_error, r2_score
 
-# =========================
-# CONFIG
-# =========================
+# Config
 st.set_page_config(page_title="Logistics ML Analysis", layout="centered")
 
 st.title("📦 Logistics ML Analysis")
 st.write("Predict Packing → Ready Supply Time and analyze bottleneck")
 
 data = {
-    'process_1': [1.5, 2.0, 1.2, 3.0, 2.5, 1.8, 2.2, 3.5, 1.0, 2.8],
-    'process_2': [1.0, 1.5, 0.8, 2.0, 1.8, 1.2, 1.4, 2.5, 0.7, 2.0],
-    'process_3': [2.0, 3.0, 1.5, 4.0, 3.5, 2.5, 2.8, 4.5, 1.2, 3.8],
+    'process_1': [15,18,16,16,15,15,16,13,16,18,15,16,18,15,15,15,13,14,14,15],
+    'process_2': [17,17,19,18,19,19,18,16,21,17,19,18,18,21,21,17,21,18,16,19],
+    'process_3': [22,23,22,22,20,20,19,23,20,20,23,22,21,22,20,22,23,24,22,22],
 }
 
 df = pd.DataFrame(data)
